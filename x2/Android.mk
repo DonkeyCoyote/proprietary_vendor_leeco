@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter zl1 x2,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),x2)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qti.dpmframework
