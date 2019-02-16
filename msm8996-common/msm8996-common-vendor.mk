@@ -682,7 +682,9 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     TimeService \
     UEIQuicksetSDKLeTV \
-    LetvRemoteControl_preinstall
+    LetvRemoteControl_preinstall \
+    WfdService \
+    WfdCommon
 
 # WFD
 PRODUCT_COPY_FILES += \
